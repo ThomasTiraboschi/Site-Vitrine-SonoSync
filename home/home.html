@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/home/home.css">
+    <title>Site Vitrine</title>
+</head>
+<body>
+    <div class="container">  
+    <div class="content-wrap">
+    <header id="mainHeader">
+        <img id="logo" src="/assets/Logo.jpg">
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#contact">L'équipe</a></li>
+            </ul>
+        </nav>
+    </header>
+<section id="accueil">
+    <h2>SonoSync<span class="sound-bars"></span></h2>
+    <p>Foncez à la recherche des meilleures musiques !</p>
+
+    <div class="cards">
+        <div class="card">
+            <video controls class="videodemo">
+                <source src="/assets/HACKATHON_EQUIPE_10.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la vidéo.
+            </video>
+            <h3 id="demo">Vidéo de démonstration</h3>
+            <p>Voici une petite vidéo de démonstration du jeu ainsi que la répartition de nos tâches.</p>
+        </div>
+        <div class="card">
+            <img src="/assets/Cassettes.png" alt="Image 3">
+            <h3 id="demo">Les cassettes</h3>
+            <p>Chaque cassette confère un pouvoir différent ! 
+            la <green>verte</green> confère un pouvoir de saut, la <red>rouge</red> d'inversion de gravité et la <purple>violette</purple> de controle sur les plateformes. 
+            </p>
+        </div>
+        <div class="card">
+            <img src="/assets/Mecanique.png" alt="Image 3">
+            <h3>Les mécaniques du jeu</h3>
+            <p>Récupérez les cassettes afin de débloquer différents pouvoirs pour continuer l'aventure!</p>
+    </div>
+</section>
+<section id="description">
+    <h1>Notre Projet</h1>
+    <p id="resume">
+        Dans "SonoSync", plongez-vous dans l'univers mystérieux d'une salle de concert où vous incarnez un agent d'entretien ayant découvert un poste radio aux pouvoirs surprenants. 
+        Ce simple objet transforme la salle en un labyrinthe de défis et d'énigmes, influencé par le rythme de la musique. 
+        Inspiré des jeux de plateforme 2D à la manière de Mario Bros, "SonoSync" se démarque en intégrant une dynamique unique : la capacité pour le joueur de contrôler la musique, et par extension, le niveau lui-même. 
+        Changez de mélodie pour voir des plateformes surgir, se mouvoir ou même inverser la gravité. Conçu avec passion en utilisant C#, Unity et Visual Studio, "SonoSync" propose une expérience ludique qui danse au gré de vos choix musicaux. 
+        Votre mission ? Maîtriser la musique pour résoudre les énigmes et naviguer à travers cette salle de concert enchantée.
+    </p>
+</section>
+<section id="description">
+    <h1>MVP</h1>
+    <p id="resume">
+        - Création de 3 salles distinctes :
+        <br>
+        <br>
+                La salle 1 contient des plateformes, un accès simple à la salle 2 et un accès impossible à la salle 3
+                <br>
+                La salle 2 contient une nouvelle cassette
+                <br>
+                La salle 3, accès à la suite de la Map
+                <br>
+                <br>
+Le MVP contient d'autres éléments tels que les mouvements du personnage,
+le level design des salles,
+récupération de cassettes,
+changement de musique grâce à un inventaire et une actualisation du gameplay en fonction de la musique actuelle.
+    </p>
+</section>
+<section id="description">
+<h1>Les Fonctionnalités supplémentaires V2</h1>
+    <p id="resume">
+- Création de nouvelles musiques
+<br>
+- Développement de nouveaux effets sur les niveaux
+<br>
+- Déploiement Build WebGl sur Itch.io
+<br>
+- Changement rapide de musique grâce à des favoris
+<br>
+- Déplacements complets avec un dash
+<br>
+    </p>
+</section>
+<div class="separation">
+<h5></h5>
+</div>
+<section id="contact">
+    <h2>Notre Fine Équipe</h2>
+    <div class="team-members">
+        <div class="member">
+            <img src="/assets/Thomas.jpg" alt="Membre 1">
+            <h4>TIRABOSCHI Thomas</h4>
+            <p>B3 - Infra</p>
+        </div>
+        <div class="member">
+            <img src="/assets/Aidan.jpg" alt="Membre 2">
+            <h4>DUMONT Aidan</h4>
+            <p>B3 - GAME PROG</p>
+        </div>
+        <div class="member">
+            <img src="/assets/Eliott.png" alt="Membre 3">
+            <h4>GUIGNABAUDET Eliott</h4>
+            <p>B3 - GAME PROG</p>
+        </div>
+        <div class="member">
+            <img src="/assets/Axel.jpg" alt="Membre 4">
+            <h4>GIRAUDON Axel</h4>
+            <p>B2 - Informatique</p>
+        </div>
+        <div class="member">
+            <img src="/assets/Thien-Tin.jpg" alt="Membre 5">
+            <h4>TRAN Thien-Tin</h4>
+            <p>B2 - Informatique</p>
+        </div>
+        <div class="member">
+            <img src="/assets/Alexis.jpg" alt="Membre 6">
+            <h4>SOUBIEUX Alexis</h4>
+            <p>B2 - Informatique</p>
+        </div>
+    </div>
+</section>
+</div>
+    <footer>
+        <p>&copy; 2023 Mon Site Vitrine. Tous droits réservés.</p>
+    </footer>
+    </div>
+    <script src="/scripts/home.js"></script>
+    <script src="/scripts/bass.js"></script>
+    <script src="/scripts/HiddenHeader.js"></script>
+</body>
+</html>
